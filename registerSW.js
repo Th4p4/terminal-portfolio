@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/th4p4.github.io/sw.js', { scope: '/th4p4.github.io/' })})}
