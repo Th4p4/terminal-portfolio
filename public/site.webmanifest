@@ -1,7 +1,7 @@
 {
-  "name": "Terminal Portfolio by SN",
+  "name": "Terminal Portfolio by Sandip",
   "short_name": "Terminal",
-  "description": "Sat Naing's terminal portfolio website coded with ReactJS.",
+  "description": "Sandip Thapa's terminal portfolio website coded with ReactJS.",
   "start_url": "/",
   "icons": [
     {

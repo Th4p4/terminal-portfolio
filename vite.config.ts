@@ -12,7 +12,9 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
     }),
+
   ],
+  base:"/th4p4.github.io/",
   test: {
     globals: true,
     environment: 'jsdom',
