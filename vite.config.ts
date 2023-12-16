@@ -14,7 +14,7 @@ export default defineConfig({
     }),
 
   ],
-  base:"/th4p4.github.io/",
+  // base:"/th4p4.github.io/",
   test: {
     globals: true,
     environment: 'jsdom',
