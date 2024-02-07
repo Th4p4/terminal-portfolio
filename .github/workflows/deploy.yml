@@ -14,8 +14,9 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 env:
-  NEXT_PUBLIC_EMAIL=${{ secrets.NEXT_PUBLIC_EMAIL }}
-  NEXT_PUBLIC_URL=${{ secrets.NEXT_PUBLIC_URL }}
+  NEXT_PUBLIC_EMAIL: ${{ secrets.NEXT_PUBLIC_EMAIL }}
+  NEXT_PUBLIC_URL: ${{ secrets.NEXT_PUBLIC_URL }}
+  
 permissions:
   contents: read
   pages: write
