@@ -51,9 +51,10 @@ const ProjectSection: React.FC = () => {
         ))}
       </div>
       <div className="others text-center mb-16">
-        Other projects can be explored in{" "}
+        Other projects can be found in{" "}
         <a
-          href={process.env.NEXT_PUBLIC_URL + "/sandip.pdf"}
+          href={"/sandip.pdf"}
+          target="_blank"
           className="font-medium underline link-outline text-marrsgreen dark:text-carrigreen whitespace-nowrap"
         >
           my resume
@@ -95,7 +96,7 @@ const projects = [
       />
     ),
     desc: "XRP NFT Marketplace is a decentralized application developed with React, TypeScript, and XRP RPC calls. In this project, we can mint, buy, sell, and transfer NFTs on the XRP Ledger using Xumm Wallet.",
-    tags: ["ReactJs", "TypeScript", "TailwindCSS", "XRP Ledger","Xumm Wallet"],
+    tags: ["ReactJs", "TypeScript", "TailwindCSS", "XRP Ledger", "Xumm Wallet"],
     liveUrl: "https://haru-fashion.vercel.app/",
     codeUrl: "https://github.com/satnaing/haru-fashion",
     bgColor: "bg-[#A6CECE]",
@@ -113,7 +114,13 @@ const projects = [
       />
     ),
     desc: "NFT Marketplace API for Metaverse Platform developed with ExpressJS, TypeScript, and MongoDB. In this project, we can create, transfer, and sell NFTs on the Metaverse Platform in EVM blockchain.",
-    tags: ["ExpressJS", "TypeScript", "Marketplace", "EVM Blockchain", "MongoDB"],
+    tags: [
+      "ExpressJS",
+      "TypeScript",
+      "Marketplace",
+      "EVM Blockchain",
+      "MongoDB",
+    ],
     liveUrl: "https://satnaing.github.io/haru-api/",
     codeUrl: "https://github.com/satnaing/haru-api",
     bgColor: "bg-[#C5E4E7]",
