@@ -24,7 +24,6 @@ module.exports = {
 };
 
 const nextConfig = {
-  basePath: "/Sandip.Portfolio",
   output: "export",
   reactStrictMode: true,
   images: {
